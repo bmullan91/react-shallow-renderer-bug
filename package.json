@@ -1,0 +1,19 @@
+{
+  "name": "react-shallow-renderer-bug",
+  "version": "1.0.0",
+  "description": "shallowRenderer.getRenderOutput returns different data depending if the component is stateful or stateless",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-addons-test-utils": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "tape": "^4.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [],
+  "author": "Brian Mullan <bmullan91@gmail.com>",
+  "license": "ISC"
+}
